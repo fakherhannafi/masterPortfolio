@@ -8,6 +8,7 @@ import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
+import Certifications from "../pages/certifications/Certifications";
 
 export default class Main extends Component {
   render() {
@@ -40,6 +41,12 @@ export default class Main extends Component {
                 path="/education"
                 render={(props) => (
                   <Education {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/certifications"
+                render={(props) => (
+                  <Certifications {...props} theme={this.props.theme} />
                 )}
               />
               <Route
