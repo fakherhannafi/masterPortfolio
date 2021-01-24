@@ -1,6 +1,6 @@
 const openSource = {
-  githubConvertedToken: "Your Github Token Here.",
-  githubUserName: "Your Github Username Here.",
+  githubConvertedToken: "ddf944a10ccdfab09eae300f4299527a0e2f3f35",
+  githubUserName: "fakhrovski",
 };
 
 const fetch = require("node-fetch");
@@ -203,7 +203,7 @@ fetch(baseUrl, {
   })
   .catch((error) => console.log(JSON.stringify(error)));
 
-fetch(baseUrl, {
+/* fetch(baseUrl, {
   method: "POST",
   headers: headers,
   body: JSON.stringify(query_org),
@@ -240,7 +240,7 @@ fetch(baseUrl, {
       }
     );
   })
-  .catch((error) => console.log(JSON.stringify(error)));
+  .catch((error) => console.log(JSON.stringify(error))); */
 
 const languages_icons = {
   Python: "logos-python",
