@@ -341,6 +341,137 @@ const degrees = {
   ],
 };
 
+const profCerts = {
+  certifications: [
+    {
+      title: "CKAD",
+      subtitle: "Cloud Native Computing Foundation",
+      logo_path: "ckad_from_cncfsite.png",
+      certificate_link:
+        "https://www.youracclaim.com/badges/d7b257ff-3b0e-43e1-a915-97ead07f0cb9/public_url",
+      alt_name: "CKAD",
+      color_code: "#e1e1e1",
+    },
+    {
+      title: "Terraform Associate",
+      subtitle: "Hashicorp",
+      logo_path: "Terraform-Associate-Badge.png",
+      certificate_link:
+        "https://www.youracclaim.com/badges/233f10be-b100-40ad-a69e-eb2cd526f9f3/public_url",
+      alt_name: "Terraform",
+      color_code: "#e1e1e1",
+    },
+    {
+      title: "Vault Associate",
+      subtitle: "Hashicorp",
+      logo_path: "Vault-Associate-Badge.png",
+      certificate_link:
+        "https://www.youracclaim.com/badges/a1abedc2-5498-4b5e-b687-a913b0695cdd/public_url",
+      alt_name: "Vault",
+      color_code: "#e1e1e1",
+    },
+    {
+      title: "Solutions Architect Associate",
+      subtitle: "Amazon Web Services",
+      logo_path: "AWS-SolArchitect-Associate-2020.png",
+      certificate_link:
+        "https://www.youracclaim.com/badges/73b73dcb-1183-4262-b2f0-34bc0c28b173/public_url",
+      alt_name: "Certified Solutions Architect Associate",
+      color_code: "#e1e1e1",
+    },
+    {
+      title: "Sysops Administrator Associate",
+      subtitle: "Amazon Web Services",
+      logo_path: "AWS-SysOpAdmin-Associate-2020.png",
+      certificate_link:
+        "https://www.youracclaim.com/badges/53396833-983b-49e5-876f-17085aefe4dc/public_url",
+      alt_name: "Certified Administrator Associate",
+      color_code: "#e1e1e1",
+    },
+    {
+      title: "Cloud Practioner",
+      subtitle: "Amazon Web Services",
+      logo_path: "AWS-CloudPractitioner-2020.png",
+      certificate_link:
+        "https://www.youracclaim.com/badges/cbbd4474-41eb-4dc3-a92c-f0a0e6dc5681/public_url",
+      alt_name: "Certified Cloud Practioner",
+      color_code: "#e1e1e1",
+    },
+    {
+      title: "Developer Associate",
+      subtitle: "Amazon Web Services",
+      logo_path: "AWS-Developer-Associate.png",
+      certificate_link:
+        "https://www.youracclaim.com/badges/874eda02-a769-4dd0-8d17-a2de1231acc0/public_url",
+      alt_name: "Certified Developer Associate",
+      color_code: "#e1e1e1",
+    },
+    {
+      title: "Devops Engineer Expert",
+      subtitle: "Microsoft Azure",
+      logo_path: "CERT-Expert-DevOps-Engineer.png",
+      certificate_link:
+        "https://www.youracclaim.com/badges/48d0d4e2-a82e-4928-823a-1cf37c6d3b67/public_url",
+      alt_name: "Devops Engineer Expert",
+      color_code: "#e1e1e1",
+    },
+    {
+      title: "Administrator Associate",
+      subtitle: "Microsoft Azure",
+      logo_path: "azure-administrator-associate.png",
+      certificate_link:
+        "https://www.youracclaim.com/badges/47043561-0443-48f2-a5cb-2c1bee6b4180/public_url",
+      alt_name: "Administrator Associate",
+      color_code: "#e1e1e1",
+    },
+    {
+      title: "Developer Associate",
+      subtitle: "Microsoft Azure",
+      logo_path: "azure-developer-associate-600x600.png",
+      certificate_link:
+        "https://www.youracclaim.com/badges/55b2bdcc-a7f6-484f-874c-d8d4d03fee27/public_url",
+      alt_name: "Developer Associate",
+      color_code: "#e1e1e1",
+    },
+    {
+      title: "Data Fundamentals",
+      subtitle: "Microsoft Azure",
+      logo_path: "azure-data-fundamentals-600x600.png",
+      certificate_link:
+        "https://www.youracclaim.com/badges/c025f70b-6feb-4898-bff3-36bf24e92d45/public_url",
+      alt_name: "Stanford University",
+      color_code: "#e1e1e1",
+    },
+    {
+      title: "Azure Fundamentals",
+      subtitle: "Microsoft Azure",
+      logo_path: "Azure.Fundamental_Icon.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+      alt_name: "deeplearning.ai",
+      color_code: "#e1e1e1",
+    },
+    {
+      title: "Data Analyst Associate",
+      subtitle: "Microsoft",
+      logo_path: "CERT-Associate-Data-Analyst-600x600.png",
+      certificate_link:
+        "https://www.youracclaim.com/badges/3e0f2d52-9ff7-49c5-976f-951c05477c4a/public_url",
+      alt_name: "deeplearning.ai",
+      color_code: "#e1e1e1",
+    },
+    {
+      title: "Multi-cloud Network Engineer Associate",
+      subtitle: "Aviatrix",
+      logo_path: "aceAssociatetBadgeArtboard_1.png",
+      certificate_link:
+        "https://www.youracclaim.com/badges/ac46103b-c871-454a-8ea9-b5690390711f/public_url",
+      alt_name: "deeplearning.ai",
+      color_code: "#e1e1e1",
+    },
+  ],
+};
+
 const certifications = {
   certifications: [
     {
@@ -636,6 +767,7 @@ export {
   competitiveSites,
   degrees,
   certifications,
+  profCerts,
   experience,
   projectsHeader,
   contactPageData,
