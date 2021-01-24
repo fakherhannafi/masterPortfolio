@@ -21,7 +21,7 @@ class OrganizationList extends Component {
                 }
               >
                 <li className="organizations-inline" name={logo["login"]}>
-                  <Fade bottom duration={2000} distance="40px">
+                  <Fade bottom duration={2000} distance="10%">
                     <img
                       className="organizations-img"
                       src={logo["avatarUrl"]}

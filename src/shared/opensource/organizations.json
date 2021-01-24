@@ -6,18 +6,63 @@
       "__typename": "Organization"
     },
     {
-      "login": "Hashicorp",
-      "avatarUrl": "https://awsmp-logos.s3.amazonaws.com/88bf62a6-5193-419b-8785-58b7b64efdae/54e7297527c16b049e3f67d19acaa1fb.png",
-      "__typename": "Organization"
-    },
-    {
       "login": "Azure",
       "avatarUrl": "https://www.pinclipart.com/picdir/big/407-4070477_microsoft-migration-dublin-shannon-transparent-background-microsoft-azure.png",
       "__typename": "Organization"
     },
     {
+      "login": "Kubernetes",
+      "avatarUrl": "https://kubernetes.io/images/kubernetes-horizontal-color.png",
+      "__typename": "Organization"
+    },
+    {
+      "login": "Denodo",
+      "avatarUrl": "https://community.denodo.com/eval/img/guide/logo@2x.png",
+      "__typename": "Organization"
+    },
+    {
+      "login": "Terraform",
+      "avatarUrl": "https://i.pinimg.com/originals/f4/54/15/f45415270449af33c39dcb1e8af5a62a.png",
+      "__typename": "Organization"
+    },
+    {
+      "login": "Vault",
+      "avatarUrl": "https://www.drupal.org/files/project-images/Vault_VerticalLogo_FullColor_2_1.png",
+      "__typename": "Organization"
+    },
+    {
       "login": "NodeJs",
       "avatarUrl": "https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png",
+      "__typename": "Organization"
+    },
+    {
+      "login": "Angular",
+      "avatarUrl": "https://sigao.io/wp-content/uploads/2018/08/angular-card.png",
+      "__typename": "Organization"
+    },
+    {
+      "login": "React",
+      "avatarUrl": "https://www.metaltoad.com/sites/default/files/styles/large_personal_photo_870x500_/public/2020-05/react-js-blog-header.png?itok=VbfDeSgJ",
+      "__typename": "Organization"
+    },
+    {
+      "login": "Anaconda",
+      "avatarUrl": "https://upload.wikimedia.org/wikipedia/en/c/cd/Anaconda_Logo.png",
+      "__typename": "Organization"
+    },
+    {
+      "login": "Anaconda",
+      "avatarUrl": "https://sigao.io/wp-content/uploads/2018/08/angular-card.png",
+      "__typename": "Organization"
+    },
+    {
+      "login": "Python",
+      "avatarUrl": "https://www.python.org/static/community_logos/python-logo-inkscape.svg",
+      "__typename": "Organization"
+    },
+    {
+      "login": "VueJs",
+      "avatarUrl": "https://3lhowb48prep40031529g5yj-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/logo-vuejs-min.png",
       "__typename": "Organization"
     }
   ]
