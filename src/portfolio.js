@@ -371,6 +371,15 @@ const profCerts = {
       color_code: "#e1e1e1",
     },
     {
+      title: "Jenkins Engineer",
+      subtitle: "Jenkins",
+      logo_path: "jenkins.png",
+      certificate_link:
+        "https://www.youracclaim.com/badges/a1abedc2-5498-4b5e-b687-a913b0695cdd/public_url",
+      alt_name: "Vault",
+      color_code: "#e1e1e1",
+    },
+    {
       title: "Solutions Architect Associate",
       subtitle: "Amazon Web Services",
       logo_path: "AWS-SolArchitect-Associate-2020.png",
@@ -467,6 +476,15 @@ const profCerts = {
       certificate_link:
         "https://www.youracclaim.com/badges/ac46103b-c871-454a-8ea9-b5690390711f/public_url",
       alt_name: "deeplearning.ai",
+      color_code: "#e1e1e1",
+    },
+    {
+      title: "Professional Scrum Master 1",
+      subtitle: "Scrum.org",
+      logo_path: "psm1.png",
+      certificate_link:
+        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
+      alt_name: "psm1",
       color_code: "#e1e1e1",
     },
   ],
