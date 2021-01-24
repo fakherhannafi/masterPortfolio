@@ -9,6 +9,7 @@ import { projectsHeader } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
+import Organizations from "../../containers/organizations/Organizations";
 
 class Projects extends Component {
   render() {
@@ -24,8 +25,10 @@ class Projects extends Component {
 											src={require(`../../assets/images/${projectsHeader["avatar_image_path"]}`)}
 											alt=""
 										/> */}
+
                 <ProjectsImg theme={theme} />
               </div>
+
               <div className="projects-heading-text-div">
                 <h1
                   className="projects-heading-text"
@@ -42,6 +45,9 @@ class Projects extends Component {
               </div>
             </div>
           </Fade>
+        </div>
+        <div className="projects-heading-text-div">
+          <Organizations theme={this.props.theme} />
         </div>
         <div className="repo-cards-div-main">
           {ProjectsData.data.map((repo) => {
