@@ -48,9 +48,13 @@
   justify-content: center;
 }
 
+.blog-image {
+  margin-left: 2%;
+}
+
 @media (max-width: 1380px) {
   .blog-heading-text {
-    font-size: 50px;
+    font-size: 35px;
     margin-top: 40px;
   }
 }
@@ -66,15 +70,15 @@
     margin-top: 60px;
   }
 
-  .blog-heading-text-div {
-    margin-top: 40px;
-  }
-
   .blog-header-detail-text {
     font-size: 16px;
     margin-left: 0px;
     margin-right: 0px;
     line-height: normal;
     text-align: center;
+  }
+
+  .blog-image {
+    margin-left: 2%;
   }
 }

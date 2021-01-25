@@ -29,13 +29,8 @@ class Blogs extends Component {
               <h1 className="blog-heading-text" style={{ color: theme.text }}>
                 {blogSection["title"]}
               </h1>
-              <p
-                className="blog-header-detail-text subTitle"
-                style={{ color: theme.secondaryText }}
-              >
-                {/* {blogSection["subtitle"]} */}
-                <div id="medium-widget"></div>
-              </p>
+
+              <div className="blog-image" id="medium-widget"></div>
 
               <div className="blogsite-btn-div">
                 <Button
@@ -51,8 +46,7 @@ class Blogs extends Component {
 											src={require(`../../assets/images/${blogSection["avatar_image_path"]}`)}
 											alt=""
 										/> */}
-              {/*               <BlogsImg theme={theme} />
-               */}{" "}
+              <BlogsImg theme={theme} />
             </div>
           </div>
         </Fade>
