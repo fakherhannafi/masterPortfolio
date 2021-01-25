@@ -14,6 +14,9 @@ class ProfCerts extends Component {
             <h1 className="certs-header" style={{ color: theme.text }}>
               Professional Certifications
             </h1>
+            <h6 className="certs-subtitle" style={{ color: theme.text }}>
+              #{profCerts.certifications.length} since 2019
+            </h6>
           </Fade>
         </div>
         <div className="certs-body-div">

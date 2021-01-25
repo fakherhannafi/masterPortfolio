@@ -336,7 +336,7 @@ const degrees = {
         "⚡ I have studied basic software engineering subjects like Data Structures, Algorithms, Programming/Modeling Languages, Network models, DBMS, Operating Systems, etc...",
         "⚡ Apart from this, I have done courses based on IT market needs like Devops, Cloud Computing, Data Analytics and Full Stack Development.",
       ],
-      website_link: "http://www.supcom.mincom.tn/Fr/accueil_46_3",
+      website_link: "http://www.ipeit.rnu.tn/",
     },
   ],
 };
@@ -375,7 +375,7 @@ const profCerts = {
       subtitle: "Jenkins",
       logo_path: "jenkins.png",
       certificate_link:
-        "https://www.youracclaim.com/badges/a1abedc2-5498-4b5e-b687-a913b0695cdd/public_url",
+        "https://certificates.cloudbees.com/90df21b8-f6ab-45bc-a2be-e443f50f4fb1",
       alt_name: "Vault",
       color_code: "#e1e1e1",
     },
@@ -448,7 +448,7 @@ const profCerts = {
       logo_path: "azure-data-fundamentals-600x600.png",
       certificate_link:
         "https://www.youracclaim.com/badges/c025f70b-6feb-4898-bff3-36bf24e92d45/public_url",
-      alt_name: "Stanford University",
+      alt_name: "Data Fundamentals",
       color_code: "#e1e1e1",
     },
     {
@@ -456,8 +456,8 @@ const profCerts = {
       subtitle: "Microsoft Azure",
       logo_path: "Azure.Fundamental_Icon.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
+        "https://www.youracclaim.com/badges/a5599282-f742-4f85-b955-58c65c26d89d/public_url",
+      alt_name: "azure fundamentals",
       color_code: "#e1e1e1",
     },
     {
@@ -466,7 +466,7 @@ const profCerts = {
       logo_path: "CERT-Associate-Data-Analyst-600x600.png",
       certificate_link:
         "https://www.youracclaim.com/badges/3e0f2d52-9ff7-49c5-976f-951c05477c4a/public_url",
-      alt_name: "deeplearning.ai",
+      alt_name: "data analyst",
       color_code: "#e1e1e1",
     },
     {
@@ -475,7 +475,7 @@ const profCerts = {
       logo_path: "aceAssociatetBadgeArtboard_1.png",
       certificate_link:
         "https://www.youracclaim.com/badges/ac46103b-c871-454a-8ea9-b5690390711f/public_url",
-      alt_name: "deeplearning.ai",
+      alt_name: "aviatrix network engineer",
       color_code: "#e1e1e1",
     },
     {
@@ -483,8 +483,17 @@ const profCerts = {
       subtitle: "Scrum.org",
       logo_path: "psm1.png",
       certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
+        "https://drive.google.com/file/d/1Np0XF8Lp99kaLGcngStGzi-czhxU19N0/view?usp=drive_open",
       alt_name: "psm1",
+      color_code: "#e1e1e1",
+    },
+    {
+      title: "ITIL4",
+      subtitle: "Axelos",
+      logo_path: "itil4.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1lJYQBcqZ0-Dv7yxFksf2dKOeER-GjyZ_/view",
+      alt_name: "itil4",
       color_code: "#e1e1e1",
     },
   ],
@@ -493,112 +502,49 @@ const profCerts = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      title: "Data Network Principles",
+      subtitle: "Institut Mines-Télécom",
+      logo_path: "imt.jpg",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
+        "https://www.cvtrust.com/SmartDiploma/?xVyP15sFUKhhZYYSkTh/gZ+USyBrUQL+51c7cp1nHf9Qlno7xHUeqmlWDHvVj5gO",
+      alt_name: "data-networks",
+      color_code: "#e1e1e1",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "Machine Learning A-Z™: Hands-On Python & R In Data Science",
+      subtitle: "Udemy",
+      logo_path: "udemy.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
+        "https://drive.google.com/file/d/1bniXNpOnMoTcBLoO0_LC1z-DEolj500N/view?usp=sharing",
+      alt_name: "mlaz",
+      color_code: "#e1e1e1",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "Angular Crash course for busy developers",
+      subtitle: "Udemy",
+      logo_path: "udemy.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
+        "https://drive.google.com/file/d/1Qr2uxmbdnQZwDLjUwPpCa36pZx_qjoXJ/view?usp=sharing",
+      alt_name: "ng",
+      color_code: "#e1e1e1",
     },
     {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
+      title: "Rapid Prototyping with Ionic",
+      subtitle: "Udemy",
+      logo_path: "udemy.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
+        "https://drive.google.com/file/d/1rQibGI3GHGfIhJ-2JBEpzRGQraL7l9ga/view?usp=sharing",
+      alt_name: "ng",
+      color_code: "#e1e1e1",
     },
     {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
+      title: "CCNA Routing and Switching",
+      subtitle: "Cisco Networking Academy",
+      logo_path: "ccna.jpg",
       certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+        "https://drive.google.com/file/d/1AqrceRDKcIRLLVPJ2xljA4agOC0_PNCb/view?usp=sharing",
+      alt_name: "ng",
+      color_code: "#e1e1e1",
     },
   ],
 };
@@ -758,7 +704,7 @@ const contactPageData = {
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
   blogSection: {
-    title: "My Last Blogs",
+    title: "My Latest Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
     link: "https://fakhrovski.medium.com/",

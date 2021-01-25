@@ -5,6 +5,13 @@
   text-align: center;
 }
 
+.certs-subtitle {
+  font-size: 20px;
+  line-height: 1.1;
+  font-family: initial;
+  text-align: center;
+}
+
 .certs-body-div {
   display: flex;
   justify-content: space-between;

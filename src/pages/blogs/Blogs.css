@@ -25,7 +25,7 @@
 }
 
 .blog-heading-text {
-  font-size: 56px;
+  font-size: 35px;
   font-weight: 400;
   font-family: "Google Sans Medium";
   line-height: 1.1;
@@ -54,14 +54,14 @@
 
 @media (max-width: 1380px) {
   .blog-heading-text {
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 40px;
   }
 }
 
 @media (max-width: 768px) {
   .blog-heading-text {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 0px;
   }
 
