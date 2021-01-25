@@ -15,6 +15,9 @@ import { contactPageData } from "../../portfolio";
 const blogSection = contactPageData.blogSection;
 
 class Blogs extends Component {
+  componentDidMount() {
+    window.mediumWidget();
+  }
   render() {
     const theme = this.props.theme;
     return (
@@ -30,8 +33,10 @@ class Blogs extends Component {
                 className="blog-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {blogSection["subtitle"]}
+                {/* {blogSection["subtitle"]} */}
+                <div id="medium-widget"></div>
               </p>
+
               <div className="blogsite-btn-div">
                 <Button
                   text="Visit My Blogsite"
@@ -46,7 +51,8 @@ class Blogs extends Component {
 											src={require(`../../assets/images/${blogSection["avatar_image_path"]}`)}
 											alt=""
 										/> */}
-              <BlogsImg theme={theme} />
+              {/*               <BlogsImg theme={theme} />
+               */}{" "}
             </div>
           </div>
         </Fade>
