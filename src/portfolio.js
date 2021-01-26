@@ -14,7 +14,7 @@ const greeting = {
     "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/Fakher1919/masterPortfolio",
+  portfolio_repository: "https://github.com/fakhrovski",
 };
 
 const socialMediaLinks = [
@@ -312,17 +312,18 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "University of Carthage, SupCom IT, Tunisia",
+      title: "University of Carthage, SupCom, Tunisia",
       subtitle: "IT and Telecommunication Engineering",
       logo_path: "supcom.png",
       alt_name: "Supcom",
       duration: "2015 - 2018",
       descriptions: [
+        "⚡ Supcom is a higher school of communication in Tunisia which is responsible for the training of engineers in the field of ICT.",
         "⚡ I have studied basic software engineering subjects like Data Structures, Algorithms, Programming/Modeling Languages, Network models, DBMS, Operating Systems, etc...",
         "⚡ Apart from this, I have done MOOCS based on IT market needs like Devops, Cloud Computing, Data Analytics and Full Stack Development.",
         "⚡ At Sup'Com, we focused not only on technical aspects but also on soft skills like management and communication.",
         "⚡ I have participated in a lot of academic projects, problem solving contests and security hackathons",
-        "⚡ I led a music club and animated lot of local events.",
+        "⚡ I led a music club and animated a lot of events.",
       ],
       website_link: "http://www.supcom.mincom.tn/Fr/accueil_46_3",
     },
@@ -333,8 +334,8 @@ const degrees = {
       alt_name: "IPEIT",
       duration: "2013 - 2015",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like Data Structures, Algorithms, Programming/Modeling Languages, Network models, DBMS, Operating Systems, etc...",
-        "⚡ Apart from this, I have done courses based on IT market needs like Devops, Cloud Computing, Data Analytics and Full Stack Development.",
+        "⚡ IPEIT is a higher education and research establishment authorized to provide preparatory training to students who will take national competitions to integrate the training cycles of engineers.",
+        "⚡ I have studied Advanced Geometry, Algebra, Electromagnetism, Thermodynamics, Chemistry, Optics, Algorithms, etc...",
       ],
       website_link: "http://www.ipeit.rnu.tn/",
     },

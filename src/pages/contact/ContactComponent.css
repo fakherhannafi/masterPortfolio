@@ -55,7 +55,9 @@
 }
 
 .contact-heading-img-div > * {
+  margin-left: 20%;
   max-width: 100%;
+  width: 50%;
   height: auto;
 }
 
