@@ -9,11 +9,11 @@ const settings = {
 const greeting = {
   title: "Fakher HANNAFI",
   logo_name: "FakherHannafi",
-  nickname: "",
+  nickname: "Cloud Engineer",
   subTitle:
-    "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "I developed an autonomous approach to face anything I undertake. I love networking with IT architects and playing the violin.",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
+    "https://drive.google.com/file/d/1za2GpmcdYKLq47pR0IZt_rqDzJ_kxiKl/view?usp=sharing",
   portfolio_repository: "https://github.com/fakhrovski",
 };
 
@@ -58,7 +58,7 @@ const skills = {
       skills: [
         "⚡ Implement Cloud Based solutions to help customers find the best way to migrate seamlessly to the cloud",
         "⚡ Rehost/Replatform applications on IaaS instances along with integration of databases",
-        "⚡ System Administration of AWS account",
+        "⚡ Administration of AWS accounts",
         "⚡ Ensure compliance in AWS Accounts with policy as code tools",
       ],
       softwareSkills: [
