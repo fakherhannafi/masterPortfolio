@@ -9,7 +9,7 @@ const settings = {
 const greeting = {
   title: "Fakher HANNAFI",
   logo_name: "FakherHannafi",
-  nickname: "Software Engineer",
+  nickname: "",
   subTitle:
     "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
@@ -56,10 +56,10 @@ const skills = {
       title: "Cloud Infrastructure",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Implement Cloud Based solutions to help customers find the best way to migrate seamlessly to the cloud",
+        "⚡ Rehost/Replatform applications on IaaS instances along with integration of databases",
+        "⚡ System Administration of AWS account",
+        "⚡ Ensure compliance in AWS Accounts with policy as code tools",
       ],
       softwareSkills: [
         {
@@ -77,6 +77,13 @@ const skills = {
           },
         },
         {
+          skillName: "Linux",
+          fontAwesomeClassname: "simple-icons:linux",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
           skillName: "Kubernetes",
           fontAwesomeClassname: "simple-icons:kubernetes",
           style: {
@@ -90,18 +97,43 @@ const skills = {
             color: "#1488C6",
           },
         },
+      ],
+    },
+    {
+      title: "Data & Machine Learning ",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Design and implement Data Solutions like Data Lake, Data Warehousing, Data Virtualization, Data Storage, Data Visualization, etc...",
+        "⚡ Develop MLOPS pipelines to deploy data science models to production.",
+        "⚡ Automate integration and of Data, Model and Code pipelines across environments.",
+      ],
+      softwareSkills: [
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          skillName: "PowerBI",
+          fontAwesomeClassname: "simple-icons:powerbi",
           style: {
-            color: "#336791",
+            color: "#F2C80F",
+          },
+        },
+        {
+          skillName: "Elastic",
+          fontAwesomeClassname: "simple-icons:elastic",
+          style: {
+            color: "#66b5ae",
           },
         },
         {
           skillName: "Oracle",
           fontAwesomeClassname: "simple-icons:oracle",
           style: {
-            color: "#336791",
+            color: "#f80000",
+          },
+        },
+        {
+          skillName: "MySql",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#00758F",
           },
         },
         {
@@ -111,85 +143,123 @@ const skills = {
             color: "#47A248",
           },
         },
+        {
+          skillName: "Snowflake",
+          fontAwesomeClassname: "simple-icons:snowflake",
+          style: {
+            backgroundColor: "transparent",
+            color: "#A0E3F6",
+          },
+        },
+        {
+          skillName: "Grafana",
+          fontAwesomeClassname: "simple-icons:grafana",
+          style: {
+            color: "#FFA500",
+          },
+        },
+        {
+          skillName: "Anaconda",
+          fontAwesomeClassname: "simple-icons:anaconda",
+          style: {
+            color: "#3EB049",
+          },
+        },
       ],
     },
     {
-      title: "MLOPS",
-      fileName: "DataScienceImg",
+      title: "Devops",
+      fileName: "DevopsImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Provision infrastucture with IaC tools",
+        "⚡ Implement CI/CD pipelines",
+        "⚡ Build Monitoring and Logging Systems for better observability",
+        "⚡ Automate compliance with Policy As Code",
+        "⚡ Build containerized application and run them in orchestrated platforms",
+        "⚡ Promote GitOps approach for Operation Teams",
+        "⚡ Centralize secret management in one place to improve access control governance",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "Terraform",
+          fontAwesomeClassname: "simple-icons:terraform",
           style: {
             backgroundColor: "transparent",
+            color: "#623CE4",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "Vault",
+          fontAwesomeClassname: "simple-icons:vault",
           style: {
-            backgroundColor: "white",
-            color: "#D00000",
+            backgroundColor: "transparent",
+            color: "#000000",
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "Jenkins",
+          fontAwesomeClassname: "simple-icons:jenkins",
           style: {
             backgroundColor: "transparent",
+            color: "#ff0000",
           },
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
           style: {
             backgroundColor: "transparent",
-            color: "#3776AB",
+            color: "#f34f29",
+          },
+        },
+        {
+          skillName: "Jfrog Artifactory",
+          fontAwesomeClassname: "simple-icons:jfrog",
+          style: {
+            backgroundColor: "transparent",
+            color: "#8Dc63F",
+          },
+        },
+        {
+          skillName: "Sonarcube",
+          fontAwesomeClassname: "simple-icons:sonarqube",
+          style: {
+            backgroundColor: "transparent",
+            color: "#8Dc63F",
+          },
+        },
+        {
+          skillName: "Selenium",
+          fontAwesomeClassname: "simple-icons:selenium",
+          style: {
+            backgroundColor: "transparent",
+            color: "#66cc00",
+          },
+        },
+        {
+          skillName: "Jira",
+          fontAwesomeClassname: "simple-icons:jira",
+          style: {
+            backgroundColor: "transparent",
+            color: "#0052CC",
           },
         },
       ],
     },
     {
-      title: "Full Stack Development",
+      title: "Fullstack Web Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Build responsive website front end using popular web frameworks",
+        "⚡ Develop mobile applications using Ionic",
+        "⚡ Creat Restful APIs with NodeJs, Express & Flask",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "Angular",
+          fontAwesomeClassname: "simple-icons:angular",
           style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
+            color: "#dd1b16",
           },
         },
         {
@@ -200,10 +270,33 @@ const skills = {
           },
         },
         {
+          skillName: "VueJS",
+          fontAwesomeClassname: "simple-icons:vuejs",
+          style: {
+            color: "#41B883",
+          },
+        },
+        {
           skillName: "NodeJS",
           fontAwesomeClassname: "simple-icons:node-dot-js",
           style: {
             color: "#339933",
+          },
+        },
+        {
+          skillName: "Ionic",
+          fontAwesomeClassname: "simple-icons:ionic",
+          style: {
+            backgroundColor: "transparent",
+            color: "#498AFF",
+          },
+        },
+        {
+          skillName: "Flask",
+          fontAwesomeClassname: "simple-icons:flask",
+          style: {
+            backgroundColor: "transparent",
+            color: "#092E20",
           },
         },
         {
@@ -214,24 +307,19 @@ const skills = {
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: "Bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
           style: {
-            color: "#2C8EBB",
+            backgroundColor: "transparent",
+            color: "#563d7c",
           },
         },
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
           style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
           },
         },
       ],
@@ -241,9 +329,9 @@ const skills = {
       title: "UI/UX Design",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
+        "⚡ Designing highly attractive user interface for mobile and web applications with Adobe XD",
         "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Use Adobe After Effect for marketing videos",
       ],
       softwareSkills: [
         {
@@ -254,24 +342,10 @@ const skills = {
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "Adobe After Effect",
+          fontAwesomeClassname: "simple-icons:adobe",
           style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
+            color: "#ff0000",
           },
         },
       ],
