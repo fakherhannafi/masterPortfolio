@@ -174,11 +174,11 @@ class LogoLoader extends React.Component {
 
         <text
           class="letter"
-          x="161"
-          y="148"
+          x="165"
+          y="135"
           stroke={theme.body}
           stroke-width="2"
-          font-size="80"
+          font-size="75"
           font-family="serif"
           fill="black"
           stroke="white"
@@ -187,11 +187,11 @@ class LogoLoader extends React.Component {
         </text>
         <text
           class="letter"
-          x="219"
-          y="148"
+          x="220"
+          y="160"
           stroke={theme.body}
           stroke-width="2"
-          font-size="80"
+          font-size="75"
           font-family="serif"
           fill="black"
           stroke="white"
