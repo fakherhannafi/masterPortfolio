@@ -425,6 +425,20 @@ const degrees = {
       ],
       website_link: "http://www.ipeit.rnu.tn/",
     },
+    {
+      title: "National Conservatory for Popular Arts Music",
+      subtitle: "Diploma in Arabic Music",
+      logo_path: "sol.jpg",
+      alt_name: "SOL",
+      duration: "2005 - 2010",
+      descriptions: [
+        "⚡ I passed the national exam and graduated as music teacher.",
+        "⚡ I Learned how to interpret sheet music, guessing notes, playing violin, piano and percussions.",
+        "⚡ I participated in several national events and competitions and we obtained several national prizes.",
+      ],
+      website_link:
+        "https://www.ecoles.com.tn/culture/centre-national-de-musique-et-des-arts-populaires",
+    },
   ],
 };
 
