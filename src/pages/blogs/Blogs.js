@@ -1,22 +1,30 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import OpensourceCharts from "../../containers/opensourceCharts/OpensourceCharts";
-import Organizations from "../../containers/organizations/Organizations";
-import PullRequests from "../../containers/pullRequests/PullRequests";
-import Issues from "../../containers/issues/Issues";
 import TopButton from "../../components/topButton/TopButton";
 import "./Blogs.css";
 import BlogsImg from "../contact/BlogsImg";
 import { Fade } from "react-reveal";
 import Button from "../../components/button/Button";
 import { contactPageData } from "../../portfolio";
+import Loader from "react-loader-spinner";
 
 const blogSection = contactPageData.blogSection;
 
 class Blogs extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      loading: true,
+    };
+  }
   componentDidMount() {
     window.mediumWidget();
+    setTimeout(() => {
+      this.setState({
+        loading: false,
+      });
+    }, 3000);
   }
   render() {
     const theme = this.props.theme;
@@ -29,8 +37,19 @@ class Blogs extends Component {
               <h1 className="blog-heading-text" style={{ color: theme.text }}>
                 {blogSection["title"]}
               </h1>
-
-              <div className="blog-image" id="medium-widget"></div>
+              <div
+                v-if="!loading"
+                className="blog-image"
+                id="medium-widget"
+              ></div>
+              <Loader
+                v-if="loading"
+                type="TailSpin"
+                color={theme.text}
+                height={50}
+                width={50}
+                timeout={2500} //3 secs
+              />
 
               <div className="blogsite-btn-div">
                 <Button

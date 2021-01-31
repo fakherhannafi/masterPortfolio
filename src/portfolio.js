@@ -233,7 +233,7 @@ const skills = {
           },
         },
         {
-          skillName: "Sonarcube",
+          skillName: "Sonarqube",
           fontAwesomeClassname: "simple-icons:sonarqube",
           style: {
             backgroundColor: "transparent",

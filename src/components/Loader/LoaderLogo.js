@@ -14,157 +14,157 @@ class LogoLoader extends React.Component {
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          class="myHexagon"
+          className="myHexagon"
           d="M293.545 167.405L229.5 204.381C227.025 205.81 223.975 205.81 221.5 204.381L157.455 167.405C154.98 165.976 153.455 163.335 153.455 160.476L153.455 86.5234C153.455 83.6653 154.98 81.0243 157.455 79.5952L221.5 42.6187C223.975 41.1896 227.025 41.1897 229.5 42.6187L293.545 79.5952C296.02 81.0243 297.545 83.6653 297.545 86.5234L297.545 160.476C297.545 163.335 296.02 165.976 293.545 167.405Z"
           stroke={theme.body}
-          stroke-width="4"
+          strokeWidth="4"
         />
         <path
-          class="myHexagon"
+          className="myHexagon"
           d="M147.455 73.5953L211.5 36.6188C213.975 35.1898 217.025 35.1898 219.5 36.6188L283.545 73.5953C286.02 75.0244 287.545 77.6654 287.545 80.5235L287.545 154.477C287.545 157.335 286.02 159.976 283.545 161.405L219.5 198.381C217.025 199.81 213.975 199.81 211.5 198.381L147.455 161.405C144.98 159.976 143.455 157.335 143.455 154.477L143.455 80.5235C143.455 77.6654 144.98 75.0244 147.455 73.5953Z"
           stroke={theme.body}
-          stroke-width="4"
+          strokeWidth="4"
         />
 
         <g>
           <text
-            class="signature1"
+            className="signature1"
             x="0"
             y="250"
-            font-size="60"
-            font-family="Agustina Regular"
+            fontSize="60"
+            fontFamily="Agustina Regular"
             fill="white"
             stroke="black"
           >
             F
           </text>
           <text
-            class="signature2"
+            className="signature2"
             x="50"
             y="250"
-            font-size="60"
-            font-family="Agustina Regular"
+            fontSize="60"
+            fontFamily="Agustina Regular"
             fill="white"
             stroke="black"
           >
             a
           </text>
           <text
-            class="signature3"
+            className="signature3"
             x="80"
             y="250"
-            font-size="60"
-            font-family="Agustina Regular"
+            fontSize="60"
+            fontFamily="Agustina Regular"
             fill="white"
             stroke="black"
           >
             k
           </text>
           <text
-            class="signature4"
+            className="signature4"
             x="110"
             y="250"
-            font-size="60"
-            font-family="Agustina Regular"
+            fontSize="60"
+            fontFamily="Agustina Regular"
             fill="white"
             stroke="black"
           >
             h
           </text>
           <text
-            class="signature5"
+            className="signature5"
             x="140"
             y="250"
-            font-size="60"
-            font-family="Agustina Regular"
+            fontSize="60"
+            fontFamily="Agustina Regular"
             fill="white"
             stroke="black"
           >
             e
           </text>
           <text
-            class="signature6"
+            className="signature6"
             x="170"
             y="250"
-            font-size="60"
-            font-family="Agustina Regular"
+            fontSize="60"
+            fontFamily="Agustina Regular"
             fill="white"
             stroke="black"
           >
             r
           </text>
           <text
-            class="signature7"
+            className="signature7"
             x="220"
             y="250"
-            font-size="60"
-            font-family="Agustina Regular"
+            fontSize="60"
+            fontFamily="Agustina Regular"
             fill="white"
             stroke="black"
           >
             H
           </text>
           <text
-            class="signature8"
+            className="signature8"
             x="320"
             y="250"
-            font-size="60"
-            font-family="Agustina Regular"
+            fontSize="60"
+            fontFamily="Agustina Regular"
             fill="white"
             stroke="black"
           >
             a
           </text>
           <text
-            class="signature9"
+            className="signature9"
             x="340"
             y="250"
-            font-size="60"
-            font-family="Agustina Regular"
+            fontSize="60"
+            fontFamily="Agustina Regular"
             fill="white"
             stroke="black"
           >
             n
           </text>
           <text
-            class="signature10"
+            className="signature10"
             x="370"
             y="250"
-            font-size="60"
-            font-family="Agustina Regular"
+            fontSize="60"
+            fontFamily="Agustina Regular"
             fill="white"
             stroke="black"
           >
             n
           </text>
           <text
-            class="signature11"
+            className="signature11"
             x="400"
             y="250"
-            font-size="60"
-            font-family="Agustina Regular"
+            fontSize="60"
+            fontFamily="Agustina Regular"
             fill="white"
             stroke="black"
           >
             a
           </text>
           <text
-            class="signature12"
+            className="signature12"
             x="420"
             y="250"
-            font-size="60"
-            font-family="Agustina Regular"
+            fontSize="60"
+            fontFamily="Agustina Regular"
             fill="white"
             stroke="black"
           >
             f
           </text>
           <text
-            class="signature13"
+            className="signature13"
             x="430"
             y="250"
-            font-size="60"
-            font-family="Agustina Regular"
+            fontSize="60"
+            fontFamily="Agustina Regular"
             fill="white"
             stroke="black"
           >
@@ -173,26 +173,26 @@ class LogoLoader extends React.Component {
         </g>
 
         <text
-          class="letter"
+          className="letter"
           x="165"
           y="135"
           stroke={theme.body}
-          stroke-width="2"
-          font-size="75"
-          font-family="serif"
+          strokeWidth="2"
+          fontSize="75"
+          fontFamily="serif"
           fill="black"
           stroke="white"
         >
           F
         </text>
         <text
-          class="letter"
+          className="letter"
           x="220"
           y="160"
           stroke={theme.body}
-          stroke-width="2"
-          font-size="75"
-          font-family="serif"
+          strokeWidth="2"
+          fontSize="75"
+          fontFamily="serif"
           fill="black"
           stroke="white"
         >
