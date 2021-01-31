@@ -791,7 +791,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My open source projects makes use of vast variety of latest technology tools. My best experience is to create web projects and deploy them in AWS cloud.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -801,9 +801,8 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_Fakher.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
-  },
-  blogSection: {
+      "I am available to discuss about new ideas, new projects, new business opportunities or even questions. You can message me on Linkedin, I accept everyone's invitation!",
+    blogSection: {},
     title: "My Latest Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",

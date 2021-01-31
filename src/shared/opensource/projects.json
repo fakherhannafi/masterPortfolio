@@ -79,6 +79,46 @@
           "iconifyClass": "logos-css-3"
         }
       ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxNDc1MjU0NzQ=",
+      "name": "marvel-client",
+      "createdAt": "2018-09-05T13:51:07Z",
+      "url": "https://github.com/fakhrovski/marvel-client",
+      "description": "testing some Vue APIs",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjg1MDExODM=",
+      "name": "masterPortfolio",
+      "createdAt": "2021-01-10T23:31:05Z",
+      "url": "https://github.com/fakhrovski/masterPortfolio",
+      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+      "isFork": true,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
     }
   ]
 }
