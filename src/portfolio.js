@@ -669,7 +669,7 @@ const experience = {
           duration: "October 2020 - PRESENT",
           location: "Paris, France",
           description:
-            "I am working on AWS account administration and also developing MLOPS pipelines in order to industrialize Machine Learning Models.",
+            "I am working as a Sysops, Mlops in a Data Science team. I am also responsible for industrialization of critical Machine Learning Models.",
           color: "#0879bf",
         },
         {
@@ -685,9 +685,9 @@ const experience = {
         },
         {
           title: "Tech Lead",
-          company: "BPCE IT",
+          company: "BPCE Bank",
           company_url: "https://www.bpce-it.fr/",
-          logo_path: "bpce-it.jpeg",
+          logo_path: "bpce-it.png",
           duration: "April 2019 - Sept 2020",
           location: "Aix En Provence, France",
           description:
@@ -802,7 +802,8 @@ const contactPageData = {
     profile_image_path: "animated_Fakher.png",
     description:
       "I am available to discuss about new ideas, new projects, new business opportunities or even questions. You can message me on Linkedin, I accept everyone's invitation!",
-    blogSection: {},
+  },
+  blogSection: {
     title: "My Latest Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
