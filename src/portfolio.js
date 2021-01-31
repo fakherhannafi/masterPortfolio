@@ -9,9 +9,9 @@ const settings = {
 const greeting = {
   title: "Fakher HANNAFI",
   logo_name: "FakherHannafi",
-  nickname: "Cloud Engineer",
+  nickname: "Cloud, Data and Devops Engineer",
   subTitle:
-    "I developed an autonomous approach to face anything I undertake. I love networking with IT architects and playing the violin.",
+    "I am very passionate about Cloud, Data and Devops technologies. \n I try to help people design, implement and operate IT solutions made for business needs.\n Continuous learning is my philosophy in life, I love exploring new technolgies by taking certifications and contributing in the community. Apart from IT, I like reading about Investment and Communication.",
   resumeLink:
     "https://drive.google.com/file/d/1za2GpmcdYKLq47pR0IZt_rqDzJ_kxiKl/view?usp=sharing",
   portfolio_repository: "https://github.com/fakhrovski",
@@ -19,24 +19,36 @@ const greeting = {
 
 const socialMediaLinks = [
   {
-    name: "Github",
-    link: "https://github.com/fakhrovski",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
-  },
-  {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/fakher-hannafi/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
+    name: "Medium",
+    link: "https://fakhrovski.medium.com/",
+    fontAwesomeIcon: "fa-medium", // Reference https://fontawesome.com/icons/medium?style=brands
+    backgroundColor: "#12100E", // Reference https://simpleicons.org/?q=medium
+  },
+  {
+    name: "Github",
+    link: "https://github.com/fakhrovski",
+    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+  },
+  {
+    name: "Gitlab",
+    link: "https://gitlab.com/fakhrovski",
+    fontAwesomeIcon: "fa-gitlab", // Reference https://fontawesome.com/icons/gitlab?style=brands
+    backgroundColor: "#FCA121", // Reference https://simpleicons.org/?q=gitlab
+  },
+  /*   {
     name: "YouTube",
     link: "https://www.youtube.com/channel/UChRe72e5OFI0-3iVl5Ph4Pw",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
+  }, */
+  /*   {
     name: "Gmail",
     link: "mailto:fakher.hannafi@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
@@ -47,7 +59,7 @@ const socialMediaLinks = [
     link: "https://twitter.com/fakhrovski",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  },
+  }, */
 ];
 
 const skills = {
@@ -56,7 +68,7 @@ const skills = {
       title: "Cloud Infrastructure",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Implement Cloud Based solutions to help customers find the best way to migrate seamlessly to the cloud",
+        "⚡ Implement Cloud Based solutions to help companies find the best way to migrate seamlessly to the cloud",
         "⚡ Rehost/Replatform applications on IaaS instances along with integration of databases",
         "⚡ Administration of AWS accounts",
         "⚡ Ensure compliance in AWS Accounts with policy as code tools",
