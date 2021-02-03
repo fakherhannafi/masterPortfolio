@@ -11,7 +11,7 @@ const greeting = {
   logo_name: "FakherHannafi",
   nickname: "Cloud, Data and Devops Engineer",
   subTitle:
-    "I am very passionate about Cloud, Data and Devops technologies. \n I try to help people design, implement and operate IT solutions made for business needs.\n Continuous learning is my philosophy in life, I love exploring new technolgies by taking certifications and contributing in the community. Apart from IT, I like reading about Investment and Communication.",
+    "I am very passionate about Cloud, Data and Devops. \n I help people design, implement and operate IT solutions for business needs.\n Continuous learning is my philosophy in life, I love exploring new technologies by taking certifications and contributing in the community. Apart from IT, I like reading about Investment and Communication.",
   resumeLink:
     "https://drive.google.com/file/d/1za2GpmcdYKLq47pR0IZt_rqDzJ_kxiKl/view?usp=sharing",
   portfolio_repository: "https://github.com/fakhrovski",
@@ -691,7 +691,7 @@ const experience = {
           duration: "April 2019 - Sept 2020",
           location: "Aix En Provence, France",
           description:
-            "I have participated in lot of data and web projects during almost two years. I developed 3 web applications for automation needs, I helped as a Cloud Engineer to migrate OnPrem cold Data from OnPrem Servers to AWS cloud. I was nominated Tech Lead in a program that had a goal to industrialize Data Science models to Production. I was also nominated as Tech lead in a strategic project which aims to deploy a Data Virtualization solution in BPCE private cloud.",
+            "I have participated in lot of data and web projects during almost two years. I developed 3 web applications for automation needs, I helped as a Cloud Engineer to migrate OnPrem cold Data from OnPrem Servers to AWS cloud. I was Tech Lead participating in a program that had a goal to industrialize Data Science models for Production. I was nominated as technical product lead in a strategic project which aims to deploy a Data Virtualization solution hosted in the company's private cloud.",
           color: "#9b1578",
         },
       ],
