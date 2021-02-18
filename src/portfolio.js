@@ -14,7 +14,7 @@ const greeting = {
     "I am very passionate about Cloud, Data and Devops. \n I help people design, implement and operate IT solutions for business needs.\n Continuous learning is my philosophy in life, I love exploring new technologies by taking certifications and contributing in the community. Apart from IT, I like reading about Investment and Communication.",
   resumeLink:
     "https://drive.google.com/file/d/1za2GpmcdYKLq47pR0IZt_rqDzJ_kxiKl/view?usp=sharing",
-  portfolio_repository: "https://github.com/fakhrovski",
+  portfolio_repository: "https://github.com/fakherhannafi",
 };
 
 const socialMediaLinks = [
@@ -32,7 +32,7 @@ const socialMediaLinks = [
   },
   {
     name: "Github",
-    link: "https://github.com/fakhrovski",
+    link: "https://github.com/fakherhannafi",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
