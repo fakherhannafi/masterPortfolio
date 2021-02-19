@@ -41,6 +41,7 @@
   font-size: 30px;
   line-height: 0px;
   font-family: "Google Sans Bold Italic";
+  text-align: left;
 }
 
 .greeting-text-p {
@@ -69,6 +70,7 @@
     text-align: left;
   }
 }
+
 @media (max-width: 768px) {
   .button-greeting-div {
     justify-content: space-around;
@@ -96,5 +98,18 @@
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .greeting-text {
+    font-size: 50px;
+  }
+  .greeting-text-p {
+    font-size: 20px;
+  }
+  .greeting-nickname {
+    font-size: 15px;
+    text-align: center;
   }
 }
