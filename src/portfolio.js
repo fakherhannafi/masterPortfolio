@@ -11,7 +11,7 @@ const greeting = {
   logo_name: "FakherHannafi",
   nickname: "Cloud, Data and Devops Engineer",
   subTitle:
-    "I am very passionate about Cloud, Data and Devops. \n I help people design, implement and operate IT solutions for business needs.\n Continuous learning is my philosophy in life, I love exploring new technologies by taking certifications and contributing in the community. Apart from IT, I like reading about Investment and Communication.",
+    "I am very passionate about Cloud, Data and Devops. \n I help people design, implement and operate IT solutions for business needs.\n Continuous learning is my philosophy in life, I love exploring Cloud and Cloud native technologies by taking certifications and contributing in the community. Apart from IT, I like reading about Investment and Communication.",
   resumeLink:
     "https://drive.google.com/file/d/1za2GpmcdYKLq47pR0IZt_rqDzJ_kxiKl/view?usp=sharing",
   portfolio_repository: "https://github.com/fakherhannafi",
@@ -704,7 +704,7 @@ const experience = {
           company: "Orange",
           company_url: "https://www.orange.com/en",
           logo_path: "orange.png",
-          duration: "May 2018 -  March 2019",
+          duration: "May 2018 -  November 2018",
           location: "Grenoble, France",
           description:
             "I have worked on project of developing and deploying a realtime monitoring tool for a B2B messaging application. I used VueJs, NodeJs to code, JEST to test, and Openshift to deploy.",
