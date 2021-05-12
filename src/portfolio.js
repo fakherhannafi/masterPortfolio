@@ -26,7 +26,7 @@ const socialMediaLinks = [
   },
   {
     name: "Medium",
-    link: "https://fakhrovski.medium.com/",
+    link: "https://fakherhannafi.medium.com/",
     fontAwesomeIcon: "fa-medium", // Reference https://fontawesome.com/icons/medium?style=brands
     backgroundColor: "#12100E", // Reference https://simpleicons.org/?q=medium
   },
@@ -807,7 +807,7 @@ const contactPageData = {
     title: "My Latest Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://fakhrovski.medium.com/",
+    link: "https://fakherhannafi.medium.com/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
