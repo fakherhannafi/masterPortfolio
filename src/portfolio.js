@@ -9,8 +9,7 @@ const settings = {
 const greeting = {
   title: "Fakher HANNAFI",
   logo_name: "FakherHannafi",
-  nickname:
-    "Cloud Data Architect, Speaker, Blogger, Investor and Music Professor ",
+  nickname: "Cloud Data Architect, Blogger, Speaker",
   subTitle:
     "I am passionate about Cloud, Data and Devops. \n I help people design, develop and operate IT solutions for business needs.\n Continuous learning is my philosophy in life, I love exploring Cloud  Cloud native technologies by taking certifications and contributing in the community. Apart from IT, I like reading about Investment and Communication.",
   resumeLink:

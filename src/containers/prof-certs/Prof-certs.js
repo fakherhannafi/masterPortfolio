@@ -5,6 +5,12 @@ import { profCerts } from "../../portfolio";
 import CredlyCard from "../../components/credlyCard/CredlyCard";
 
 class ProfCerts extends Component {
+  componentDidMount() {
+    if (!window.location.hash) {
+      window.location = window.location + "#loaded";
+      window.location.reload();
+    }
+  }
   render() {
     const theme = this.props.theme;
     return (
