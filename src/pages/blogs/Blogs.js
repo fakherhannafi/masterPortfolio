@@ -20,11 +20,9 @@ class Blogs extends Component {
   }
   componentDidMount() {
     window.mediumWidget();
-    setTimeout(() => {
-      this.setState({
-        loading: false,
-      });
-    }, 3000);
+    this.setState({
+      loading: false,
+    });
   }
   render() {
     const theme = this.props.theme;

@@ -9,9 +9,10 @@ const settings = {
 const greeting = {
   title: "Fakher HANNAFI",
   logo_name: "FakherHannafi",
-  nickname: "Cloud, Data and Devops Engineer",
+  nickname:
+    "Cloud Data Architect, Speaker, Blogger, Investor and Music Professor ",
   subTitle:
-    "I am very passionate about Cloud, Data and Devops. \n I help people design, implement and operate IT solutions for business needs.\n Continuous learning is my philosophy in life, I love exploring Cloud and Cloud native technologies by taking certifications and contributing in the community. Apart from IT, I like reading about Investment and Communication.",
+    "I am passionate about Cloud, Data and Devops. \n I help people design, develop and operate IT solutions for business needs.\n Continuous learning is my philosophy in life, I love exploring Cloud  Cloud native technologies by taking certifications and contributing in the community. Apart from IT, I like reading about Investment and Communication.",
   resumeLink:
     "https://drive.google.com/file/d/1za2GpmcdYKLq47pR0IZt_rqDzJ_kxiKl/view?usp=sharing",
   portfolio_repository: "https://github.com/fakherhannafi",
@@ -445,40 +446,24 @@ const degrees = {
 const profCerts = {
   certifications: [
     {
-      title: "CKAD",
+      title: "AWS Data Analytics",
       subtitle: "Cloud Native Computing Foundation",
       logo_path: "ckad_from_cncfsite.png",
       certificate_link:
-        "https://www.youracclaim.com/badges/d7b257ff-3b0e-43e1-a915-97ead07f0cb9/public_url",
+        "https://www.youracclaim.com/badges/c31c8fb5-c113-4a03-b29f-95cba02b3196/public_url",
+      alt_name: "DataAnal",
+      color_code: "#e1e1e1",
+      credly_id: "c31c8fb5-c113-4a03-b29f-95cba02b3196",
+    },
+    {
+      title: "AWS Devops Professional",
+      subtitle: "Cloud Native Computing Foundation",
+      logo_path: "ckad_from_cncfsite.png",
+      certificate_link:
+        "https://www.youracclaim.com/badges/408f4823-e158-4803-a77a-190d0c3f0672/public_url",
       alt_name: "CKAD",
       color_code: "#e1e1e1",
-    },
-    {
-      title: "Terraform Associate",
-      subtitle: "Hashicorp",
-      logo_path: "Terraform-Associate-Badge.png",
-      certificate_link:
-        "https://www.youracclaim.com/badges/233f10be-b100-40ad-a69e-eb2cd526f9f3/public_url",
-      alt_name: "Terraform",
-      color_code: "#e1e1e1",
-    },
-    {
-      title: "Vault Associate",
-      subtitle: "Hashicorp",
-      logo_path: "Vault-Associate-Badge.png",
-      certificate_link:
-        "https://www.youracclaim.com/badges/a1abedc2-5498-4b5e-b687-a913b0695cdd/public_url",
-      alt_name: "Vault",
-      color_code: "#e1e1e1",
-    },
-    {
-      title: "Jenkins Engineer",
-      subtitle: "Jenkins",
-      logo_path: "jenkins.png",
-      certificate_link:
-        "https://certificates.cloudbees.com/90df21b8-f6ab-45bc-a2be-e443f50f4fb1",
-      alt_name: "Vault",
-      color_code: "#e1e1e1",
+      credly_id: "408f4823-e158-4803-a77a-190d0c3f0672",
     },
     {
       title: "Solutions Architect Associate",
@@ -488,6 +473,7 @@ const profCerts = {
         "https://www.youracclaim.com/badges/73b73dcb-1183-4262-b2f0-34bc0c28b173/public_url",
       alt_name: "Certified Solutions Architect Associate",
       color_code: "#e1e1e1",
+      credly_id: "73b73dcb-1183-4262-b2f0-34bc0c28b173",
     },
     {
       title: "Sysops Administrator Associate",
@@ -497,6 +483,7 @@ const profCerts = {
         "https://www.youracclaim.com/badges/53396833-983b-49e5-876f-17085aefe4dc/public_url",
       alt_name: "Certified Administrator Associate",
       color_code: "#e1e1e1",
+      credly_id: "53396833-983b-49e5-876f-17085aefe4dc",
     },
     {
       title: "Cloud Practioner",
@@ -506,6 +493,7 @@ const profCerts = {
         "https://www.youracclaim.com/badges/cbbd4474-41eb-4dc3-a92c-f0a0e6dc5681/public_url",
       alt_name: "Certified Cloud Practioner",
       color_code: "#e1e1e1",
+      credly_id: "cbbd4474-41eb-4dc3-a92c-f0a0e6dc5681",
     },
     {
       title: "Developer Associate",
@@ -515,7 +503,80 @@ const profCerts = {
         "https://www.youracclaim.com/badges/874eda02-a769-4dd0-8d17-a2de1231acc0/public_url",
       alt_name: "Certified Developer Associate",
       color_code: "#e1e1e1",
+      credly_id: "874eda02-a769-4dd0-8d17-a2de1231acc0",
     },
+    {
+      title: "AWS Well-Architected Proficient",
+      subtitle: "Technical Partner Accreditation",
+      certificate_link:
+        "https://www.youracclaim.com/badges/bd08a3e9-6aa2-4697-b686-9b5bf03b22ed/public_url",
+      alt_name: "TechnicalPart",
+      color_code: "#e1e1e1",
+      credly_id: "bd08a3e9-6aa2-4697-b686-9b5bf03b22ed",
+    },
+    {
+      title: "AWS Partner: Accreditation (Business)",
+      subtitle: "Business Partner Accreditation",
+      certificate_link:
+        "https://www.youracclaim.com/badges/06d28fc3-4879-4a33-aa7d-39aae9bbd65a/public_url",
+      alt_name: "BusinessPart",
+      color_code: "#e1e1e1",
+      credly_id: "06d28fc3-4879-4a33-aa7d-39aae9bbd65a",
+    },
+    {
+      title: "AWS Partner: Accreditation (Technical)",
+      subtitle: "Technical Partner Accreditation",
+      certificate_link:
+        "https://www.youracclaim.com/badges/6c067912-6151-4039-bb8d-ab900e3fc960/public_url",
+      alt_name: "TechnicalPart",
+      color_code: "#e1e1e1",
+      credly_id: "6c067912-6151-4039-bb8d-ab900e3fc960",
+    },
+
+    {
+      title: "CKA: Certified Kubernetes Administrator",
+      certificate_link:
+        "https://www.youracclaim.com/badges/2d935ca6-1c6c-48b0-8977-74d6d5ca1bd4/public_url",
+      alt_name: "CKA",
+      color_code: "#e1e1e1",
+      credly_id: "2d935ca6-1c6c-48b0-8977-74d6d5ca1bd4",
+    },
+    {
+      title: "CKAD",
+      certificate_link:
+        "https://www.youracclaim.com/badges/d7b257ff-3b0e-43e1-a915-97ead07f0cb9/public_url",
+      alt_name: "CKAD",
+      color_code: "#e1e1e1",
+      credly_id: "d7b257ff-3b0e-43e1-a915-97ead07f0cb9",
+    },
+    {
+      title: "Microsoft Certified: Azure Solutions Architect Expert",
+      certificate_link:
+        "https://www.youracclaim.com/badges/66d82017-2f61-4768-a215-9e11fef9ba88/public_url",
+      alt_name: "SolArchiAzure",
+      color_code: "#e1e1e1",
+      credly_id: "66d82017-2f61-4768-a215-9e11fef9ba88",
+    },
+    {
+      title: "Microsoft Certified: Azure Security Engineer Associate",
+      certificate_link:
+        "https://www.youracclaim.com/badges/c40afcd7-1c63-4928-84c5-b3eff01712ee/public_url",
+      alt_name: "SecEngAzure",
+      color_code: "#e1e1e1",
+      credly_id: "c40afcd7-1c63-4928-84c5-b3eff01712ee",
+    },
+
+    /*     {
+      title: "Jenkins Engineer",
+      subtitle: "Jenkins",
+      logo_path: "jenkins.png",
+      certificate_link:
+        "https://certificates.cloudbees.com/90df21b8-f6ab-45bc-a2be-e443f50f4fb1",
+      alt_name: "Vault",
+      color_code: "#e1e1e1",
+      credly_id: "none40"
+    }, */
+
     {
       title: "Devops Engineer Expert",
       subtitle: "Microsoft Azure",
@@ -524,15 +585,17 @@ const profCerts = {
         "https://www.youracclaim.com/badges/48d0d4e2-a82e-4928-823a-1cf37c6d3b67/public_url",
       alt_name: "Devops Engineer Expert",
       color_code: "#e1e1e1",
+      credly_id: "48d0d4e2-a82e-4928-823a-1cf37c6d3b67",
     },
     {
       title: "Administrator Associate",
       subtitle: "Microsoft Azure",
       logo_path: "azure-administrator-associate.png",
       certificate_link:
-        "https://www.youracclaim.com/badges/47043561-0443-48f2-a5cb-2c1bee6b4180/public_url",
+        "https://www.youracclaim.com/badges/25d7ebc3-5ac7-496a-bef3-d612c81605fc/public_url",
       alt_name: "Administrator Associate",
       color_code: "#e1e1e1",
+      credly_id: "25d7ebc3-5ac7-496a-bef3-d612c81605fc",
     },
     {
       title: "Developer Associate",
@@ -542,6 +605,7 @@ const profCerts = {
         "https://www.youracclaim.com/badges/55b2bdcc-a7f6-484f-874c-d8d4d03fee27/public_url",
       alt_name: "Developer Associate",
       color_code: "#e1e1e1",
+      credly_id: "55b2bdcc-a7f6-484f-874c-d8d4d03fee27",
     },
     {
       title: "Data Fundamentals",
@@ -551,6 +615,7 @@ const profCerts = {
         "https://www.youracclaim.com/badges/c025f70b-6feb-4898-bff3-36bf24e92d45/public_url",
       alt_name: "Data Fundamentals",
       color_code: "#e1e1e1",
+      credly_id: "c025f70b-6feb-4898-bff3-36bf24e92d45",
     },
     {
       title: "Azure Fundamentals",
@@ -560,6 +625,7 @@ const profCerts = {
         "https://www.youracclaim.com/badges/a5599282-f742-4f85-b955-58c65c26d89d/public_url",
       alt_name: "azure fundamentals",
       color_code: "#e1e1e1",
+      credly_id: "a5599282-f742-4f85-b955-58c65c26d89d",
     },
     {
       title: "Data Analyst Associate",
@@ -569,6 +635,25 @@ const profCerts = {
         "https://www.youracclaim.com/badges/3e0f2d52-9ff7-49c5-976f-951c05477c4a/public_url",
       alt_name: "data analyst",
       color_code: "#e1e1e1",
+      credly_id: "3e0f2d52-9ff7-49c5-976f-951c05477c4a",
+    },
+    {
+      title: "HashiCorp Certified: Vault Associate",
+      certificate_link:
+        "https://www.youracclaim.com/badges/684f3aef-2aea-43cd-8f85-9978889349a5/public_url",
+      alt_name: "vaultHashicorp",
+      color_code: "#e1e1e1",
+      credly_id: "684f3aef-2aea-43cd-8f85-9978889349a5",
+    },
+    {
+      title: "Terraform Associate",
+      subtitle: "Hashicorp",
+      logo_path: "Terraform-Associate-Badge.png",
+      certificate_link:
+        "https://www.youracclaim.com/badges/233f10be-b100-40ad-a69e-eb2cd526f9f3/public_url",
+      alt_name: "Terraform",
+      color_code: "#e1e1e1",
+      credly_id: "233f10be-b100-40ad-a69e-eb2cd526f9f3",
     },
     {
       title: "Multi-cloud Network Engineer Associate",
@@ -578,24 +663,27 @@ const profCerts = {
         "https://www.youracclaim.com/badges/ac46103b-c871-454a-8ea9-b5690390711f/public_url",
       alt_name: "aviatrix network engineer",
       color_code: "#e1e1e1",
+      credly_id: "ac46103b-c871-454a-8ea9-b5690390711f",
     },
     {
-      title: "Professional Scrum Master 1",
-      subtitle: "Scrum.org",
-      logo_path: "psm1.png",
+      title: "Professional Scrum Master™ I (PSM I)",
+      subtitle: "Aviatrix",
+      logo_path: "aceAssociatetBadgeArtboard_1.png",
       certificate_link:
-        "https://drive.google.com/file/d/1Np0XF8Lp99kaLGcngStGzi-czhxU19N0/view?usp=drive_open",
-      alt_name: "psm1",
+        "https://www.youracclaim.com/badges/9ca04e8d-3517-43f3-8d42-d452b7453175/public_url",
+      alt_name: "psm",
       color_code: "#e1e1e1",
+      credly_id: "9ca04e8d-3517-43f3-8d42-d452b7453175",
     },
     {
-      title: "ITIL4",
-      subtitle: "Axelos",
-      logo_path: "itil4.png",
+      title: "ITIL 4 ® Foundation",
+      subtitle: "Itil4",
+      logo_path: "aceAssociatetBadgeArtboard_1.png",
       certificate_link:
-        "https://drive.google.com/file/d/1lJYQBcqZ0-Dv7yxFksf2dKOeER-GjyZ_/view",
-      alt_name: "itil4",
+        "https://www.youracclaim.com/badges/38a2f393-c5a4-4fbf-b04b-67a95df29c71/public_url",
+      alt_name: "psm",
       color_code: "#e1e1e1",
+      credly_id: "38a2f393-c5a4-4fbf-b04b-67a95df29c71",
     },
   ],
 };
@@ -610,6 +698,7 @@ const certifications = {
         "https://www.cvtrust.com/SmartDiploma/?xVyP15sFUKhhZYYSkTh/gZ+USyBrUQL+51c7cp1nHf9Qlno7xHUeqmlWDHvVj5gO",
       alt_name: "data-networks",
       color_code: "#e1e1e1",
+      credly_id: "none10",
     },
     {
       title: "Machine Learning A-Z™: Hands-On Python & R In Data Science",
@@ -619,6 +708,7 @@ const certifications = {
         "https://drive.google.com/file/d/1bniXNpOnMoTcBLoO0_LC1z-DEolj500N/view?usp=sharing",
       alt_name: "mlaz",
       color_code: "#e1e1e1",
+      credly_id: "none11",
     },
     {
       title: "Angular Crash course for busy developers",
@@ -628,6 +718,7 @@ const certifications = {
         "https://drive.google.com/file/d/1Qr2uxmbdnQZwDLjUwPpCa36pZx_qjoXJ/view?usp=sharing",
       alt_name: "ng",
       color_code: "#e1e1e1",
+      credly_id: "none12",
     },
     {
       title: "Rapid Prototyping with Ionic",
@@ -637,6 +728,7 @@ const certifications = {
         "https://drive.google.com/file/d/1rQibGI3GHGfIhJ-2JBEpzRGQraL7l9ga/view?usp=sharing",
       alt_name: "ng",
       color_code: "#e1e1e1",
+      credly_id: "none13",
     },
     {
       title: "CCNA Routing and Switching",
@@ -646,6 +738,7 @@ const certifications = {
         "https://drive.google.com/file/d/1AqrceRDKcIRLLVPJ2xljA4agOC0_PNCb/view?usp=sharing",
       alt_name: "ng",
       color_code: "#e1e1e1",
+      credly_id: "none14",
     },
   ],
 };
@@ -801,7 +894,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_Fakher.png",
     description:
-      "I am available to discuss about new ideas, new projects, new business opportunities or even questions. You can message me on Linkedin, I accept everyone's invitation!",
+      "I am available to discuss about business opportunities, ideas and projects. You can invite me on Linkedin. Everyone is welcome!",
   },
   blogSection: {
     title: "My Latest Blogs",

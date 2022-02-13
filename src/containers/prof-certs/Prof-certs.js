@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Prof-certs.css";
 import { Fade } from "react-reveal";
 import { profCerts } from "../../portfolio";
-import CertificationCard from "../../components/certificationCard/CertificationCard";
+import CredlyCard from "../../components/credlyCard/CredlyCard";
 
 class ProfCerts extends Component {
   render() {
@@ -21,7 +21,7 @@ class ProfCerts extends Component {
         </div>
         <div className="certs-body-div">
           {profCerts.certifications.map((cert) => {
-            return <CertificationCard certificate={cert} theme={theme} />;
+            return <CredlyCard certificate={cert} theme={theme} />;
           })}
         </div>
       </div>

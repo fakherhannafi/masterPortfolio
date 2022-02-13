@@ -1,7 +1,108 @@
 {
   "closed": 0,
-  "data": [],
-  "merged": 0,
+  "data": [
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NjA5MTY0ODMy",
+      "title": "Release/1.0",
+      "url": "https://github.com/Malek-Ben-Anes/plume-d-or/pull/4",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26302828?u=da395accc0d9b763d9a45d072d611132d1ee9016&v=4",
+        "url": "https://github.com/fakherhannafi",
+        "login": "fakherhannafi"
+      },
+      "createdAt": "2021-04-05T19:57:38Z",
+      "number": 4,
+      "changedFiles": 20,
+      "additions": 157,
+      "deletions": 144,
+      "baseRepository": {
+        "name": "plume-d-or",
+        "url": "https://github.com/Malek-Ben-Anes/plume-d-or",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/25372890?v=4",
+          "login": "Malek-Ben-Anes",
+          "url": "https://github.com/Malek-Ben-Anes"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NjA5MTU3NDEz",
+      "title": "Release/1.1",
+      "url": "https://github.com/Malek-Ben-Anes/dashboard/pull/11",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26302828?u=da395accc0d9b763d9a45d072d611132d1ee9016&v=4",
+        "url": "https://github.com/fakherhannafi",
+        "login": "fakherhannafi"
+      },
+      "createdAt": "2021-04-05T19:43:16Z",
+      "number": 11,
+      "changedFiles": 26,
+      "additions": 93,
+      "deletions": 65,
+      "baseRepository": {
+        "name": "dashboard",
+        "url": "https://github.com/Malek-Ben-Anes/dashboard",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/25372890?v=4",
+          "login": "Malek-Ben-Anes",
+          "url": "https://github.com/Malek-Ben-Anes"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NjA5MTUzNzQ1",
+      "title": "Add Note functionnality",
+      "url": "https://github.com/Malek-Ben-Anes/dashboard/pull/10",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26302828?u=da395accc0d9b763d9a45d072d611132d1ee9016&v=4",
+        "url": "https://github.com/fakherhannafi",
+        "login": "fakherhannafi"
+      },
+      "createdAt": "2021-04-05T19:35:59Z",
+      "number": 10,
+      "changedFiles": 3,
+      "additions": 0,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "dashboard",
+        "url": "https://github.com/Malek-Ben-Anes/dashboard",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/25372890?v=4",
+          "login": "Malek-Ben-Anes",
+          "url": "https://github.com/Malek-Ben-Anes"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTY4OTg1NDQz",
+      "title": "Release/1.0",
+      "url": "https://github.com/Malek-Ben-Anes/plume-d-or/pull/3",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26302828?u=da395accc0d9b763d9a45d072d611132d1ee9016&v=4",
+        "url": "https://github.com/fakherhannafi",
+        "login": "fakherhannafi"
+      },
+      "createdAt": "2021-02-07T14:43:41Z",
+      "number": 3,
+      "changedFiles": 36,
+      "additions": 466,
+      "deletions": 393,
+      "baseRepository": {
+        "name": "plume-d-or",
+        "url": "https://github.com/Malek-Ben-Anes/plume-d-or",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/25372890?v=4",
+          "login": "Malek-Ben-Anes",
+          "url": "https://github.com/Malek-Ben-Anes"
+        }
+      }
+    }
+  ],
+  "merged": 4,
   "open": 0,
-  "totalCount": 0
+  "totalCount": 4
 }
