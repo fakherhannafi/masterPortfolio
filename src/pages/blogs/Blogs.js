@@ -19,7 +19,6 @@ class Blogs extends Component {
     };
   }
   componentDidMount() {
-    window.mediumWidget();
     this.setState({
       loading: false,
     });
@@ -35,27 +34,8 @@ class Blogs extends Component {
               <h1 className="blog-heading-text" style={{ color: theme.text }}>
                 {blogSection["title"]}
               </h1>
-              <div
-                v-if="!loading"
-                className="blog-image"
-                id="medium-widget"
-              ></div>
-              <Loader
-                v-if="loading"
-                type="TailSpin"
-                color={theme.text}
-                height={50}
-                width={50}
-                timeout={2500} //3 secs
-              />
-
-              <div className="blogsite-btn-div">
-                <Button
-                  text="Visit My Blogsite"
-                  newTab={true}
-                  href={blogSection.link}
-                  theme={theme}
-                />
+              <div className="blog-image">
+                <medium-blogpost username="fakherhannafi"></medium-blogpost>
               </div>
             </div>
             <div className="blog-heading-img-div">
