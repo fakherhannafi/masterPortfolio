@@ -23,11 +23,25 @@ class ProfCerts extends Component {
             <h6 className="certs-subtitle" style={{ color: theme.text }}>
               #{profCerts.certifications.length} since 2019
             </h6>
+            <h6 className="certs-subtitle" style={{ color: theme.text }}>
+              <a
+                href="https://www.credly.com/users/fakher-hannafi"
+                target="_blank"
+              >
+                My Credy Profile
+              </a>
+            </h6>
           </Fade>
         </div>
         <div className="certs-body-div">
-          {profCerts.certifications.map((cert) => {
-            return <CredlyCard certificate={cert} theme={theme} />;
+          {profCerts.certifications.map((cert, index) => {
+            return (
+              <CredlyCard
+                key={cert.credly_id || index}
+                certificate={cert}
+                theme={theme}
+              />
+            );
           })}
         </div>
       </div>

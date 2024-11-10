@@ -9,9 +9,9 @@ const settings = {
 const greeting = {
   title: "Fakher HANNAFI",
   logo_name: "FakherHannafi",
-  nickname: "Cloud Data Architect, Blogger, Speaker",
+  nickname: "AI/Data Engineer, Blogger, Speaker",
   subTitle:
-    "I am passionate about Cloud, Data and Devops. \n I help people design, develop and operate IT solutions for business needs.\n Continuous learning is my philosophy in life, I love exploring Cloud  Cloud native technologies by taking certifications and contributing in the community. Apart from IT, I like reading about Investment and Communication.",
+    "I am passionate about Data and AI, dedicated to helping companies leverage cutting-edge technology to meet their business needs. As a freelance consultant, I specialize in designing, developing, and managing AI agents and retrieval-augmented generation (RAG) systems. With a commitment to continuous learning, I actively explore cloud-native technologies, earn certifications, and contribute to industry communities. Beyond tech, I am a violinist and enjoy exploring topics related to investment and effective communication.",
   resumeLink:
     "https://drive.google.com/file/d/1za2GpmcdYKLq47pR0IZt_rqDzJ_kxiKl/view?usp=sharing",
   portfolio_repository: "https://github.com/fakherhannafi",
@@ -65,6 +65,61 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
+      title: "Data for Generative AI  ",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Empower Intelligent Data Retrieval: Implement and manage advanced RAG systems using Langchain, Elastic, and any LLM, enabling streamlined information access.",
+        "⚡ Create Intelligent Virtual Assistants: Design and develop AI agents, from virtual assistants to workflow orchestration tools, using powerful frameworks like AutoGen and LangGraph.",
+        "⚡ Optimize AI Performance and Financial Management: Oversee Agent and RAG platform operations with comprehensive monitoring, usage tracking, response evaluation and billing alerts for enhanced FinOps efficiency.        ",
+        "⚡ Strategize Data Governance: Craft data governance strategies, encompassing metadata management, master data control, and data dictionaries for clear, consistent data usage.",
+        "⚡ Streamline Model Deployment: Develop robust MLOps pipelines, seamlessly deploying machine learning models into production to drive AI-powered outcomes.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Elastic",
+          fontAwesomeClassname: "simple-icons:elastic",
+          style: {
+            color: "#66b5ae",
+          },
+        },
+        {
+          skillName: "OpenAI",
+          fontAwesomeClassname: "simple-icons:openai",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "MySql",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#00758F",
+          },
+        },
+        {
+          skillName: "PowerBI",
+          fontAwesomeClassname: "simple-icons:powerbi",
+          style: {
+            color: "#F2C80F",
+          },
+        },
+        {
+          skillName: "Grafana",
+          fontAwesomeClassname: "simple-icons:grafana",
+          style: {
+            color: "#FFA500",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#47A248",
+          },
+        },
+      ],
+    },
+    {
       title: "Cloud Infrastructure",
       fileName: "CloudInfraImg",
       skills: [
@@ -89,13 +144,6 @@ const skills = {
           },
         },
         {
-          skillName: "Linux",
-          fontAwesomeClassname: "simple-icons:linux",
-          style: {
-            color: "#000000",
-          },
-        },
-        {
           skillName: "Kubernetes",
           fontAwesomeClassname: "simple-icons:kubernetes",
           style: {
@@ -109,72 +157,11 @@ const skills = {
             color: "#1488C6",
           },
         },
-      ],
-    },
-    {
-      title: "Data & Machine Learning ",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Design and implement Data Solutions like Data Lake, Data Warehousing, Data Virtualization, Data Storage, Data Visualization, etc...",
-        "⚡ Develop MLOPS pipelines to deploy data science models to production.",
-        "⚡ Automate integration and of Data, Model and Code pipelines across environments.",
-      ],
-      softwareSkills: [
         {
-          skillName: "PowerBI",
-          fontAwesomeClassname: "simple-icons:powerbi",
+          skillName: "Linux",
+          fontAwesomeClassname: "simple-icons:linux",
           style: {
-            color: "#F2C80F",
-          },
-        },
-        {
-          skillName: "Elastic",
-          fontAwesomeClassname: "simple-icons:elastic",
-          style: {
-            color: "#66b5ae",
-          },
-        },
-        {
-          skillName: "Oracle",
-          fontAwesomeClassname: "simple-icons:oracle",
-          style: {
-            color: "#f80000",
-          },
-        },
-        {
-          skillName: "MySql",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#00758F",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Snowflake",
-          fontAwesomeClassname: "simple-icons:snowflake",
-          style: {
-            backgroundColor: "transparent",
-            color: "#A0E3F6",
-          },
-        },
-        {
-          skillName: "Grafana",
-          fontAwesomeClassname: "simple-icons:grafana",
-          style: {
-            color: "#FFA500",
-          },
-        },
-        {
-          skillName: "Anaconda",
-          fontAwesomeClassname: "simple-icons:anaconda",
-          style: {
-            color: "#3EB049",
+            color: "#000000",
           },
         },
       ],
@@ -193,6 +180,30 @@ const skills = {
       ],
       softwareSkills: [
         {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
+          style: {
+            backgroundColor: "transparent",
+            color: "#f34f29",
+          },
+        },
+        {
+          skillName: "Jenkins",
+          fontAwesomeClassname: "simple-icons:jenkins",
+          style: {
+            backgroundColor: "transparent",
+            color: "#ff0000",
+          },
+        },
+        {
+          skillName: "Jira",
+          fontAwesomeClassname: "simple-icons:jira",
+          style: {
+            backgroundColor: "transparent",
+            color: "#0052CC",
+          },
+        },
+        {
           skillName: "Terraform",
           fontAwesomeClassname: "simple-icons:terraform",
           style: {
@@ -209,51 +220,11 @@ const skills = {
           },
         },
         {
-          skillName: "Jenkins",
-          fontAwesomeClassname: "simple-icons:jenkins",
-          style: {
-            backgroundColor: "transparent",
-            color: "#ff0000",
-          },
-        },
-        {
-          skillName: "Git",
-          fontAwesomeClassname: "simple-icons:git",
-          style: {
-            backgroundColor: "transparent",
-            color: "#f34f29",
-          },
-        },
-        {
           skillName: "Jfrog Artifactory",
           fontAwesomeClassname: "simple-icons:jfrog",
           style: {
             backgroundColor: "transparent",
             color: "#8Dc63F",
-          },
-        },
-        {
-          skillName: "Sonarqube",
-          fontAwesomeClassname: "simple-icons:sonarqube",
-          style: {
-            backgroundColor: "transparent",
-            color: "#8Dc63F",
-          },
-        },
-        {
-          skillName: "Selenium",
-          fontAwesomeClassname: "simple-icons:selenium",
-          style: {
-            backgroundColor: "transparent",
-            color: "#66cc00",
-          },
-        },
-        {
-          skillName: "Jira",
-          fontAwesomeClassname: "simple-icons:jira",
-          style: {
-            backgroundColor: "transparent",
-            color: "#0052CC",
           },
         },
       ],
@@ -262,45 +233,30 @@ const skills = {
       title: "Fullstack Web Development",
       fileName: "FullStackImg",
       skills: [
+        "⚡ Develop AI Agents Frontends with integration with existing Apps",
         "⚡ Build responsive website front end using popular web frameworks",
-        "⚡ Develop mobile applications using Ionic",
-        "⚡ Creat Restful APIs with NodeJs, Express & Flask",
+        "⚡ Creat Restful APIs with NodeJs, Express, Flask and FastAPI",
       ],
       softwareSkills: [
         {
-          skillName: "Angular",
-          fontAwesomeClassname: "simple-icons:angular",
-          style: {
-            color: "#dd1b16",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "VueJS",
-          fontAwesomeClassname: "simple-icons:vuejs",
-          style: {
-            color: "#41B883",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          skillName: "Swagger",
+          fontAwesomeClassname: "simple-icons:swagger",
           style: {
             color: "#339933",
           },
         },
         {
-          skillName: "Ionic",
-          fontAwesomeClassname: "simple-icons:ionic",
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
           style: {
-            backgroundColor: "transparent",
-            color: "#498AFF",
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "FastAPI",
+          fontAwesomeClassname: "simple-icons:fastapi",
+          style: {
+            color: "#00a400",
           },
         },
         {
@@ -312,21 +268,6 @@ const skills = {
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Bootstrap",
-          fontAwesomeClassname: "simple-icons:bootstrap",
-          style: {
-            backgroundColor: "transparent",
-            color: "#563d7c",
-          },
-        },
-        {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
           style: {
@@ -334,34 +275,41 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-      ],
-    },
-
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications with Adobe XD",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Use Adobe After Effect for marketing videos",
-      ],
-      softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "Express",
+          fontAwesomeClassname: "simple-icons:express",
           style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Adobe After Effect",
-          fontAwesomeClassname: "simple-icons:adobe",
-          style: {
-            color: "#ff0000",
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
           },
         },
       ],
     },
+    // {
+    //   title: "UI/UX Design",
+    //   fileName: "DesignImg",
+    //   skills: [
+    //     "⚡ Designing highly attractive user interface for mobile and web applications with Adobe XD",
+    //     "⚡ Customizing logo designs and building logos from scratch",
+    //     "⚡ Use Adobe After Effect for marketing videos",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "Adobe XD",
+    //       fontAwesomeClassname: "simple-icons:adobexd",
+    //       style: {
+    //         color: "#FF2BC2",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Adobe After Effect",
+    //       fontAwesomeClassname: "simple-icons:adobe",
+    //       style: {
+    //         color: "#ff0000",
+    //       },
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -375,6 +323,14 @@ const competitiveSites = {
         color: "#5B4638",
       },
       profileLink: "https://www.codechef.com/users/Fakher_1919",
+    },
+    {
+      siteName: "Udemy",
+      iconifyClassname: "simple-icons:udemy",
+      style: {
+        color: "#C0362C",
+      },
+      profileLink: "https://gitlab.com/fakhrovski",
     },
     {
       siteName: "Codeforces",
@@ -411,7 +367,7 @@ const degrees = {
         "⚡ I have participated in a lot of academic projects, problem solving contests and security hackathons",
         "⚡ I led a music club and animated a lot of events.",
       ],
-      website_link: "http://www.supcom.mincom.tn/Fr/accueil_46_3",
+      website_link: "https://www.supcom.tn/",
     },
     {
       title: "Preparatory Institute for engineering studies IPEIT, Tunisia",
@@ -684,6 +640,16 @@ const profCerts = {
       color_code: "#e1e1e1",
       credly_id: "38a2f393-c5a4-4fbf-b04b-67a95df29c71",
     },
+    {
+      title: "Certified SAFe® 5 Agilist",
+      subtitle: "Safe 5",
+      logo_path: "aceAssociatetBadgeArtboard_1.png",
+      certificate_link:
+        "https://www.youracclaim.com/badges/f2826cd8-e5ae-4c93-a205-b8f880282229/public_url",
+      alt_name: "safe",
+      color_code: "#e1e1e1",
+      credly_id: "f2826cd8-e5ae-4c93-a205-b8f880282229",
+    },
   ],
 };
 
@@ -744,77 +710,99 @@ const certifications = {
 
 // Experience Page
 const experience = {
-  title: "Experience",
-  subtitle: "Professional positions, missions and internships",
+  title: "My Core Mission",
+  // subtitle: "BPCE Group ENGIE GRTGAZ",
   description:
-    "I have worked with some well established companies and also in small startups as a Web Developer, Devops Engineer, AWS Administrator, Data Architect and ML Engineer",
+    "I have collaborated with leading companies as Data Expert, primarily in the Financial and Energy sectors. My core mission is to maximize the value extracted from data, making it more accessible and impactful for end-users and businesses alike. Please see mission details below 👇",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
+      title: "Missions",
       experiences: [
         {
-          title: "AWS/Data Engineer",
-          company: "GRTGAZ",
-          company_url: "http://www.grtgaz.com/",
+          title: "Data Consultant, Technical Lead",
+          company: "BPCE BANK",
+          company_url: "https://www.groupebpce.com/",
+          logo_path: "bpce.png",
+          duration: "August 2022 - PRESENT",
+          location: "Paris, France",
+          description:
+            "I work as a tech lead to help customer build Data and AI services mainly for IT operation teams (around 2000 people).Elastic, Kafka, Openshift are core technologies. Missions: * Design and Develop first ever RAG for BPCE-IT entity to help users consume more efficiently internal knowledge. Auto-respond to service now ticket incidents and Chatbot integrations are two main usecases. We used Langchain, GPT 4o Mini and E5 multilingual NLP model for embedding.* Integrate Azure OpenAI for Elastic Observability Assistant. Usecases: Use natural language to query logs and create lens dashboards.* Lead the team technically by helping them adopt best practices of Software Development and Devops: Jira Confluence, Git, Jenkins, Docker, Ansible.* Presales with global production teams.* Onboarding teams around the world (US, Hong Kong, UK, Portugal) to Theia platform.* Help users interpret alerts (mainly fine-grained ones) generated by anomaly detection models. * Automate installation, configuration and deployment of Filebeat (data collection tool) on 40000 servers (Linux, Windows and AIX). * Design and implement data collection patterns for public cloud based and cloud native apps (Google Pubsub, Aws Sqs, Azure Event hub).",
+          color: "#0879bf",
+        },
+        {
+          title: "AWS Data Engineer",
+          company: "BPI INVESTMENT BANK",
+          company_url: "https://www.bpifrance.fr/",
+          logo_path: "bpi.png",
+          duration: "Jan 2022 - August 2022",
+          location: "Paris, France",
+          description:
+            "Develop, build and run Data pipelines with aws data services for BPI France Client Counter. Key technologies: Glue, Athena, Redshift, Spark, Python, Gitlab, Jenkins, Datadog, Airflow.",
+          color: "#0879bf",
+        },
+        {
+          title: "AWS Data Architect",
+          company: "ENGIE",
+          company_url: "https://www.engie.com/",
           logo_path: "grtgaz.png",
-          duration: "October 2020 - PRESENT",
+          duration: "October 2020 - December 2021",
           location: "Paris, France",
           description:
-            "I am working as a Sysops, Mlops in a Data Science team. I am also responsible for industrialization of critical Machine Learning Models.",
+            "I am working as a Sysops, Mlops in a Data Science team. I am also responsible for industrialization of critical Machine Learning Models.\n Data Engineering on Global Performance Cockpit Project aimed to raise operational/financial KPIs for the Top Management (Pyspark, Palantir Foundry, CommonDataHub). Design Data Governance Pattern for all GBU/BUs based on Collibra Software. Implement Collibra Edge and Data Quality for All group entities. Keywords: AWS EC2, Redshift, Glue, Lambda, CommonDataHub, Palantir Foundry, Python, Spark, Collibra Data Quality, Collibra Edge.",
           color: "#0879bf",
         },
         {
-          title: "Cloud Consultant",
+          title: "Senior Data Consultant, Speaker, Blogger",
           company: "DEVOTEAM REVOLVE",
-          company_url: "https://revolve.team/",
-          logo_path: "revolve.jpg",
-          duration: "October 2020 - PRESENT",
+          company_url: "https://devoteam.com/",
+          logo_path: "devoteam.png",
+          duration: "October 2020 - December 2021",
           location: "Paris, France",
           description:
-            "I am working in ML community. My role is to contribute to build a MLOPS service offer and help customers develop their ML maturity from small to big organizations",
+            "I am working actively as a community builder. My role is to contribute to build a MLOPS service offer and help customers develop their ML maturity from small to big organizations. Mission: * Community Contributor * Help junior consultants onboard on AWS and Data. * Speaker in Salon Big Data in 2021 Edition. * Blogger. * Build Data Offer Proposition for the company",
           color: "#0879bf",
         },
         {
-          title: "Tech Lead",
-          company: "BPCE Bank",
+          title: "Junior Developer, Architect",
+          company: "BPCE BANK",
           company_url: "https://www.bpce-it.fr/",
-          logo_path: "bpce-it.png",
+          logo_path: "bpce.png",
           duration: "April 2019 - Sept 2020",
           location: "Aix En Provence, France",
           description:
-            "I have participated in lot of data and web projects during almost two years. I developed 3 web applications for automation needs, I helped as a Cloud Engineer to migrate OnPrem cold Data from OnPrem Servers to AWS cloud. I was Tech Lead participating in a program that had a goal to industrialize Data Science models for Production. I was nominated as technical product lead in a strategic project which aims to deploy a Data Virtualization solution hosted in the company's private cloud.",
+            "I have participated in lot of data and web projects during almost two years. I developed 3 web applications for automation needs, I helped as a Cloud Engineer to migrate OnPrem cold Data from OnPrem Servers to AWS cloud. I was Tech Lead participating in a program that had a goal to industrialize Data Science models for Production. I was nominated as technical product lead in a strategic project which aims to deploy a Data Virtualization solution hosted in the company's private cloud. Keywords: Denodo, Hadoop, Spark, Dataiku, Python",
           color: "#9b1578",
         },
       ],
     },
-    {
-      title: "Internships",
-      experiences: [
-        {
-          title: "Software Engineer",
-          company: "Orange",
-          company_url: "https://www.orange.com/en",
-          logo_path: "orange.png",
-          duration: "May 2018 -  November 2018",
-          location: "Grenoble, France",
-          description:
-            "I have worked on project of developing and deploying a realtime monitoring tool for a B2B messaging application. I used VueJs, NodeJs to code, JEST to test, and Openshift to deploy.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Web Developer",
-          company: "XeConcepts",
-          company_url: "https://www.jobi.tn/company.html/xeconcepts",
-          logo_path: "xeconcepts.jpeg",
-          duration: "June 2017 - Septembre 2018",
-          location: "Sousse, Tunisia",
-          description:
-            "I worked on a e-marketing hybrid application with Ionic framework.",
-          color: "#0071C5",
-        },
-      ],
-    },
+    // {
+    //   title: "Internships",
+    //   experiences: [
+    //     {
+    //       title: "Software Engineer",
+    //       company: "Orange",
+    //       company_url: "https://www.orange.com/en",
+    //       logo_path: "orange.png",
+    //       duration: "May 2018 -  November 2018",
+    //       location: "Grenoble, France",
+    //       description:
+    //         "I have worked on project of developing and deploying a realtime monitoring tool for a B2B messaging application. I used VueJs, NodeJs to code, JEST to test, and Openshift to deploy.",
+    //       color: "#ee3c26",
+    //     },
+    //     {
+    //       title: "Web Developer",
+    //       company: "XeConcepts",
+    //       company_url: "https://www.jobi.tn/company.html/xeconcepts",
+    //       logo_path: "xeconcepts.jpeg",
+    //       duration: "June 2017 - Septembre 2018",
+    //       location: "Sousse, Tunisia",
+    //       description:
+    //         "I worked on a e-marketing hybrid application with Ionic framework.",
+    //       color: "#0071C5",
+    //     },
+    //   ],
+    // },
     /*     {
       title: "Volunteerships",
       experiences: [
@@ -911,7 +899,7 @@ const contactPageData = {
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 8320758513",
+    subtitle: "+33 7 86 89 52 46",
   },
 };
 
