@@ -71,7 +71,7 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
   <title>MyPortfolio</title>
-<!--   <script src="../src/medium-blogpost-widget.js"></script>
+  <!--   <script src="../src/medium-blogpost-widget.js"></script>
  -->
 </head>
 
@@ -91,7 +91,21 @@
     -->
 
   <!-- <script type="text/javascript"  async src="//cdn.credly.com/assets/utilities/embed.js"></script> -->
-  
+
+
+  <script src="https://chat.fakher-hannafi.com/copilot/index.js"></script>
+
+  <script>
+    window.addEventListener("chainlit-call-fn", (e) => {
+      const { name, args, callback } = e.detail;
+      callback("You sent: " + args.msg);
+    });
+  </script>
+  <script>
+    window.mountChainlitWidget({
+      chainlitServer: "https://chat.fakher-hannafi.com",
+    });
+  </script>
 
 </body>
 
